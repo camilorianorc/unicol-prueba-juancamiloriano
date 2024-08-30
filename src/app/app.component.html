@@ -8,39 +8,49 @@
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        <img src="./assets/img/icon-menu.png" alt="" width="40px">
+        <img src="/assets/img/icon-menu.png" alt="" width="40px" />
       </button>
       <ul class="dropdown-menu bg-yellow" aria-labelledby="dropdownMenuButton1">
         <li *ngFor="let item of menu" class="lh-1 mb-2">
-          <a class="dropdown-item fw-bold text-blue-dark" href="{{ item.slug }}">
+          <a
+            class="dropdown-item fw-bold text-blue-dark"
+            href="rutas/{{ item.slug }}"
+          >
             {{ item.page }}
           </a>
           <ul class="list-unstyled ms-3">
-          <li *ngFor="let sub of item.subpages">
-            <a class="dropdown-item text-blue-dark" href="{{sub.slug}}">
-              {{
-                sub.title
-              }}
-            </a>
-          </li>
+            <li *ngFor="let sub of item.subpages">
+              <a
+                class="dropdown-item text-blue-dark"
+                href="rutas/{{ item.slug }}/#{{ sub.slug }}"
+              >
+                {{ sub.title }}
+              </a>
+            </li>
           </ul>
         </li>
       </ul>
 
       <!-- logo -->
       <a class="navbar-brand" href="#">
-        <img src="./assets/img/logo.png" alt="" width="280px" height="auto" class="img-fluid">
+        <img
+          src="/assets/img/logo.png"
+          alt=""
+          width="280px"
+          height="auto"
+          class="img-fluid"
+        />
       </a>
-
-      
     </div>
-    
+
     <div class="ms-auto">
-        <a class="dropdown-item fw-bold text-blue-dark" href="/">
-          <img src="./assets/img/icon-home.png" alt="" width="40px">
-        </a>
-      </div>
+      <a class="dropdown-item fw-bold text-blue-dark" href="/">
+        <img src="/assets/img/icon-home.png" alt="" width="40px" />
+      </a>
+    </div>
   </div>
 </nav>
 
+<div class="container">
 <router-outlet></router-outlet>
+</div>
