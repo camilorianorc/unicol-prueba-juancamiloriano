@@ -1,0 +1,17 @@
+:root {
+    --blue-dark: #014898
+    --yellow: #ffcd23
+    --blue: #027ac6
+}
+
+body {
+    background: var(--blue)
+}
+
+.bg-yellow {
+    background: var(--yellow)
+}
+
+.text-blue-dark {
+    color: var(--blue-dark)
+}

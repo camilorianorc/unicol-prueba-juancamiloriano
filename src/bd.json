@@ -1,0 +1,49 @@
+{
+  "menu": [
+    {
+      "page": "1. Contextualización",
+      "slug": "contextualizacion",
+      "subpages": [
+        {
+          "title": "Presentación del componente",
+          "slug": "presentacion-del-componente"
+        },
+        { "title": "Cronograma", "slug": "cronograma" },
+        { "title": "Evaluación diagnóstica", "slug": "evaluacion-diagnostica" }
+      ]
+    },
+    {
+      "page": "2. Conceptualización",
+      "slug": "conceptualizacion",
+      "subpages": [
+        { "title": "Guía de aprendizaje", "slug": "guia-de-aprendizaje" },
+        { "title": "Recursos de apoyo", "slug": "recursos-de-apoyo" },
+        {
+          "title": "Material complementario",
+          "slug": "material-complementario"
+        }
+      ]
+    },
+    {
+      "page": "3. Aplicación",
+      "slug": "aplicacion",
+      "subpages": [
+        { "title": "Tutorías", "slug": "tutorias" },
+        { "title": "Actividades", "slug": "actividades" },
+        { "title": "evaluaciones", "slug": "evaluaciones" }
+      ]
+    },
+    {
+      "page": "4. Integración – Proyecto Formativo",
+      "slug": "integracion-proyecto-formativo",
+      "subpages": [
+        {
+          "title": "Descripción del proyecto",
+          "slug": "descripcion-del-proyecto"
+        },
+        { "title": "Cronograma", "slug": "cronograma" },
+        { "title": "Entregables", "slug": "entregables" }
+      ]
+    }
+  ]
+}
